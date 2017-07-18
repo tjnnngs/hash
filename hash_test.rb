@@ -7,10 +7,15 @@ class TestHashArray < Minitest::Test#has to be camel case otherwise, copy all
 		assert_equal(1,1)
 	end
 
-		def test_assert_that_class_type_is_hash
-			(assert_equal(2, (candy_hash. length)))
-			
-end
+	def test_assert_candy_hash_length
+		(assert_equal(3, (candy_hash. length)))
+
+	end
+
+	 def test_for_chocolate_returns_choices
+		(assert_equal("chocolate", (:'kit kat')))
+
+	 end
 
 end
 
