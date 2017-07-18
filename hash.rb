@@ -1,3 +1,7 @@
-animal_sounds.each do |animal, sound|
-	puts "the #{animal} goes #{sound}"
+candy_hash = {}
+
+def candy_hash 
+	{pb: 'reese', sour: 'sour patch kids'}
 end
+
+# candy_hash[:chocolate] = ['kit kat', 'hershey bar']
